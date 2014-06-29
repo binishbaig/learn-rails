@@ -1,0 +1,33 @@
+<style>
+body {background: linear-gradient(75deg,#F0FFFF, #F0F8FF);
+}
+h1 {color:#00CED1;
+	text-align: center;
+	padding-top: 40px;
+}
+h2 {color: #FA8072;
+	text-align: center;
+	padding-top: 20px;
+}
+h3 {color:hotpink;
+	text-align: center;
+}
+p {color:gray;
+	font-family: georgia, arial, times;
+	text-align: center;
+}
+bir {color:red;}
+date {color:orange;}
+left {color:green;
+	font-size: 30px;
+}
+</style>
+<body>
+<h1>Hello, Husband</h3>
+<p>Welcome to the website dedicated to you, my awesome hubsand, <%= @owner.name %>. This webpage is dedicated to remembering important things. For example, your <bir>BIRTHDAY!</bir></p>
+<p>You were born on <date> <%= @owner.birthdate %></date>. A lucky day indeed for all of us!</p>
+<p>Only <left><%= @owner.countdown %> </left>days until we get to celebrate and party your arrival into this world! Cannot wait!!!!</p>
+<h3>P.s. I heart you with all my heart!!</h3>
+<h2>Love,</h2>
+<h2>Your Wife</h2>
+</body>
